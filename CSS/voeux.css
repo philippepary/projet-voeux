@@ -7,11 +7,8 @@ html, body {
 }
 
 .logopop-img {
-	position:absolute;
 	height:100%;
 	width: 100%;
-	margin: 0;
-	padding: 0;
 	text-align: center;
 	animation-name: bg-logo;
 	animation-duration: 5s;
@@ -94,7 +91,7 @@ h1 {
 	top: 15px;
 }
 
-#snowflakeContainer {
+#logopop, #snowflakeContainer, #meilleurs-voeux {
     position: absolute;
     left: 0px;
     top: 0px;

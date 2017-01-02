@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function(){
 	//set animation timing
 	var animationDelay = 2500,
 		//loading bar effect
@@ -151,4 +151,11 @@ jQuery(document).ready(function($){
 		$oldWord.removeClass('is-visible').addClass('is-hidden');
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
+
+	jQuery("#logopop").click(function(){
+		jQuery(this).hide();
+	});
+	jQuery("#snowflakeContainer").click(function(){
+		jQuery(this).hide();
+	});
 });

@@ -5,7 +5,4 @@ jQuery(document).ready(function(){
 	jQuery("#snowflakeContainer").click(function(){
 		jQuery(this).hide();
 	});
-	jQuery("#meilleurs-voeux").click(function(){
-		jQuery(this).hide();
-	});
 });

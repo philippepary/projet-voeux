@@ -1,0 +1,11 @@
+jQuery(document).ready(function(){
+	jQuery("#logopop").click(function(){
+		jQuery(this).hide();
+	});
+	jQuery("#snowflakeContainer").click(function(){
+		jQuery(this).hide();
+	});
+	jQuery("#meilleurs-voeux").click(function(){
+		jQuery(this).hide();
+	});
+});
